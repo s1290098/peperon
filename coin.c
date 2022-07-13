@@ -28,11 +28,11 @@ printf("Tossing a coin...\n");
     printf("Heads: %d, Tail: %d\n", j,k);
 
     if(j > k){
-        printf("You won\n");
+        printf("%s won\n", str);
     }
 
     else{
-        printf("You lost\n");
+        printf("%s lost\n", str);
     }
     return 0;
 
