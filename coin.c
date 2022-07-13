@@ -8,6 +8,10 @@ int main(){
     int k=0;
     char str[10];
 
+    printf("Who are you?\n> ");
+    scanf("%s", str);
+    printf("Hello, %s\n", str);
+
 printf("Tossing a coin...\n");
     for(i = 0; i < 3; i++){
        r = rand()%2;
